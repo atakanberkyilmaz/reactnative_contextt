@@ -1,16 +1,16 @@
-import React, { createContext, useState } from 'react';
+// import React, { createContext, useState } from 'react';
 
-const LangContext = createContext();
+// const LangContext = createContext();
 
-export const LangContextProvider = ({ children }) => {
-  const [lang, setLang] = useState('tr-TR');
+// export const LangContextProvider = ({ children }) => {
+//   const [lang, setLang] = useState('tr-TR');
 
-  const values = {
-    lang,
-    setLang,
-  };
+//   const values = {
+//     lang,
+//     setLang,
+//   };
 
-  return <LangContext.Provider value={values}>{children}</LangContext.Provider>;
-};
+//   return <LangContext.Provider value={values}>{children}</LangContext.Provider>;
+// };
 
-export default LangContext;
+// export default LangContext;
